@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<shape xmlns:android="http://schemas.android.com/apk/res/android">  
+ <!-- 实心  透明色  
+ <solid android:color="#FFFFFF"/>  
+ -->  
+     <gradient android:startColor="#FFFFEF"    
+        android:endColor="#D3D3D3"    
+         android:angle="90" />  
+     <stroke  
+         android:width="1dp"  
+         android:color="#D3D3D3"  />  
+     <corners  
+         android:radius="8dip" />  
+     <padding  
+         android:left="0dp"  
+         android:top="0dp"  
+         android:right="0dp"  
+         android:bottom="0dp" />  
+</shape>  <!-- From: file:/Users/zyh/Documents/Android%20App/MainActivity1/app/src/main/res/drawable/listitem_shape.xml -->

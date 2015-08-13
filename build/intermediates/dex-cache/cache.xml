@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zyh/Documents/Android App/MainActivity1/app/libs/achartengine-1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="/Users/zyh/Documents/Android App/MainActivity1/app/build/intermediates/pre-dexed/debug/achartengine-1.0.0-1080ff02864ec19532f512c1f338722305640388.jar" />
+    </item>
+    <item
+        jar="/Users/zyh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/zyh/Documents/Android App/MainActivity1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-bc965c292df4e651fcdee757a3a3acaed8582112.jar" />
+    </item>
+
+</items>

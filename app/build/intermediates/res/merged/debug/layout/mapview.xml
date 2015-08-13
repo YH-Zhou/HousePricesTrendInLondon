@@ -1,0 +1,428 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/london_borough_map3"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/AreaName_Tower_Hamlets"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_x="163dp"
+        android:layout_y="178dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Tower_Hamlets"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Wandsworth"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="11dp"
+        android:layout_x="98dp"
+        android:layout_y="250dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Wandsworth"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Kingston_upon_Thames"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="53dp"
+        android:layout_height="20dp"
+        android:layout_x="60dp"
+        android:layout_y="333dp"
+        android:background="@android:color/transparent"
+        android:focusableInTouchMode="false"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Kingston_upon_Thames"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/AreaName_Richmond_upon_Thames"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="53dp"
+        android:layout_height="19dp"
+        android:layout_x="42dp"
+        android:layout_y="284dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Richmond_upon_Thames"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/AreaName_Westminster"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_x="112dp"
+        android:layout_y="186dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Westminster"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Harrow"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_x="56dp"
+        android:layout_y="99dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Harrow"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Hackney"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_x="155dp"
+        android:layout_y="140dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Hackney"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/AreaName_Barking_and_Dagenham"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="44dp"
+        android:layout_height="23dp"
+        android:layout_x="215dp"
+        android:layout_y="152dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Barking_and_Dagenham"
+        android:textSize="7.5dp" />
+
+    <Button
+        android:id="@+id/AreaName_Havering"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_x="260dp"
+        android:layout_y="112dp"
+        android:background="@android:color/transparent"
+        android:minHeight="3dp"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Havering"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/AreaName_Kensington_and_Chelsea"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="45dp"
+        android:layout_height="18dp"
+        android:layout_x="105dp"
+        android:layout_y="199dp"
+        android:background="@android:color/transparent"
+        android:minWidth="2dip"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Kensington_and_Chelsea"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Southwark"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="144dp"
+        android:layout_y="218dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Southwark"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Lambeth"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="137dp"
+        android:layout_y="265dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Lambeth"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Merton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="111dp"
+        android:layout_y="294dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Merton"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Enfield"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="147dp"
+        android:layout_y="34dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Enfield"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Barnet"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_x="103dp"
+        android:layout_y="74dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Barnet"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Hounslow"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_x="41dp"
+        android:layout_y="236dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Hounslow"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Hammersmith_and_Fulham"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="52dp"
+        android:layout_height="19dp"
+        android:layout_x="69dp"
+        android:layout_y="260dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Hammersmith_and_Fulham"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Lewisham"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="167dp"
+        android:layout_y="254dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Lewisham"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Bexley"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_x="231dp"
+        android:layout_y="236dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Bexley"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Sutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_x="122dp"
+        android:layout_y="336dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Sutton"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Islington"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="137dp"
+        android:layout_y="156dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Islington"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Brent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_x="83dp"
+        android:layout_y="138dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Brent"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Camden"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_x="117dp"
+        android:layout_y="144dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Camden"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Newham"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="188dp"
+        android:layout_y="169dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Newham"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Hillingdon"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_x="20dp"
+        android:layout_y="178dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Hillingdon"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Ealing"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_x="67dp"
+        android:layout_y="176dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Ealing"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Bromley"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_x="198dp"
+        android:layout_y="320dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Bromley"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Redbridge"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_x="196dp"
+        android:layout_y="118dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Redbridge"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Waltham_Forest"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="38dp"
+        android:layout_height="24dp"
+        android:layout_x="168dp"
+        android:layout_y="97dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Waltham_Forest"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Haringey"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_x="136dp"
+        android:layout_y="110dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Haringey"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Greenwich"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_x="188dp"
+        android:layout_y="218dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Greenwich"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/AreaName_Croydon"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_x="156dp"
+        android:layout_y="350dp"
+        android:background="@android:color/transparent"
+        android:onClick="displaygraph"
+        android:rotation="90"
+        android:text="@string/AreaName_Croydon"
+        android:textSize="8dp" />
+
+</AbsoluteLayout><!-- From: file:/Users/zyh/Documents/Android%20App/MainActivity1/app/src/main/res/layout/mapview.xml -->

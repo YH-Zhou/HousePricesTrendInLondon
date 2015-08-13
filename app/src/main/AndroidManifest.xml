@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+	 
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+	
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <uses-library android:name="com.google.android.maps" /> 
+        
+        <activity
+            android:name="com.example.test.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.test.StartActivity">
+        </activity>
+        <activity
+            android:name="org.achartengine.GraphicalActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.test.XYChartBuilder"
+            android:label="@string/title_activity_xychart_builder">
+        </activity>
+        <activity
+            android:name="com.example.test.PricesChartBuilder"
+            android:label="@string/title_activity_prices_chart_builder" >
+        </activity>
+        <activity
+            android:name="com.example.test.CrimeChartBuilder"
+            android:label="@string/title_activity_crime_chart_builder" >
+        </activity>
+        <activity
+            android:name="com.example.test.PopulationChartBuilder"
+            android:label="@string/title_activity_population_chart_builder" >
+        </activity>
+        <activity
+            android:name="com.example.test.TreeChartBuilder"
+            android:label="@string/title_activity_tree_chart_builder" >
+        </activity>
+         <activity
+            android:name="com.example.test.HomeActivity"
+            android:label="London Borough Map" >
+        </activity>
+         <activity
+            android:name="com.example.test.MoreActivity"
+            android:label="More..." >
+        </activity>
+        <activity
+            android:name="com.example.test.SearchActivity"
+            android:label="@string/title_search"
+             >
+        </activity>
+        <activity
+            android:name="com.example.test.SearchResult"
+            android:label="@string/title_search_result" >
+        </activity>
+    </application>
+
+</manifest>
